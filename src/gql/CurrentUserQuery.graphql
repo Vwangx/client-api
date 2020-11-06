@@ -1,0 +1,9 @@
+query {
+    currentUser {
+        id
+        avatarURL
+        email
+        name
+        position
+    }
+}

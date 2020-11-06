@@ -1,0 +1,9 @@
+mutation($name: name, $slug: slug) {
+  technology {
+    create(input: { name: $name, slug: $slug }) {
+      id
+      name
+      slug
+    }
+  }
+}

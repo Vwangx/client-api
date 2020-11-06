@@ -1,0 +1,7 @@
+mutation ($id: ID!, $name: String, $email: String, $position: String, $bio: String, $image: Upload) {
+  user {
+    update(id: $id, input: { name: $name, email: $email, position: $position, bio: $bio, image: $image }) {
+      id,name,email,position,bio,image
+    }
+  }
+}

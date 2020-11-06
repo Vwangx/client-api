@@ -1,0 +1,11 @@
+query {
+  users {
+    items {
+      id
+      email
+      name
+      position
+      avatarURL
+    }
+  }
+}

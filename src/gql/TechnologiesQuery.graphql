@@ -1,0 +1,9 @@
+query {
+  technologies {
+    items {
+      id
+      name
+      slug,
+    }
+  }
+}

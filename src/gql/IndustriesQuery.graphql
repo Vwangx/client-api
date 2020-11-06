@@ -1,0 +1,10 @@
+query {
+	industries {
+    items {
+      id,
+      name,
+      slug,
+      description
+    }
+  }
+}
